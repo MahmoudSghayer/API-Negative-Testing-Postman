@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "9de4a87a-643e-434c-b018-966267295303",
+		"name": "API Negative Testing - Fake Store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51244782",
+		"_collection_link": "https://ma7muds001-4539445.postman.co/workspace/Mahmoud's-Workspace~cf213ac4-96c3-4780-8f16-02af20423842/collection/51244782-9de4a87a-643e-434c-b018-966267295303?action=share&source=collection_link&creator=51244782"
+	},
+	"item": [
+		{
+			"name": "/auth/login - Invalid Credentials",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/users - Unauthorized",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/carts/user/9999 - Non-Existing User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
